@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bgContainer {
+    min-height: 100vh;
+}
+
+.mainHeading {
+    color: #170606;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .mainHeading {
+
+        font-size: 40px;
+    }
+}
+
+.description {
+    color: #000000;
+    font-family: "Bree Serif";
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 700px;
+    overflow: hidden;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Bree Serif";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Bree Serif";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Bree Serif";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Bree Serif";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Bree Serif";
+}
+
+.booknowButton {
+    background-color: #fc0328;
+    color: #ffffff;
+    border-width: 0px;
+    padding: 10px;
+    font-family: "Bree Serif";
+}
+
+@media screen and (min-width:768px) {
+    .booknowButton {
+        padding: 20px;
+        margin: auto;
+
+    }
+}
+
+.nav-logo {
+    height: 70px;
+    width: 70px;
+}
+
+.horizontalLine {
+    border-width: 1px;
+    border-style: solid;
+    color: #fc0328;
+    width: 20%;
+}
+
+.proffessionals-image {
+
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .proffessionals-image {
+        height: 250px;
+        width: 45%;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .giveMargin {
+        margin-right: 10px;
+    }
+}
+
+.footer-section {
+    padding: 20px;
+}
+
+.makeADonation {
+    background-color: #fc0328;
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.donationHeading {
+    font-size: 14px;
+}
+
+.contactUs {
+    background-color: #1a1d40;
+}
+
+.contactUs {
+    padding: 10px;
+
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.about {
+    font-size: 9px;
+    color: #ffffff;
+    margin: auto;
+    padding: 5px;
+    font-family: "Bree Serif";
+}
+
+
+.addingHeight {
+    height: 100px;
+}
+
+.plusIcon {
+    color: #fc0328;
+}
+
+@media screen and (min-width:768px) {
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+}
